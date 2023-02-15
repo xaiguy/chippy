@@ -1,0 +1,9 @@
+transformers
+datasets
+torch
+streamlit
+fastapi
+uvicorn
+pydantic
+#accelerate
+#bitsandbytes-cuda116
