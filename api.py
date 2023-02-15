@@ -6,6 +6,12 @@ from fastapi import FastAPI
 
 from transformers import GPTNeoXForCausalLM, AutoTokenizer
 
+import argparse
+
+parser = argparse.ArgumentParser(description='FastAPI for testing the chip_1.4B_instruct_alpha model.')
+parser.add_argument('--host', type=str, default="127.0.0.1", help='Host IP address')
+parser.add_argument('--port', type=int, default=8000, help='Host port')
+
 class Data(BaseModel):
     input_prompt: str
 
@@ -45,4 +51,5 @@ async def model_predict(data: Data):
     return output.replace("<|endoftext|>", "")
 
 if __name__ == '__main__':
-    uvicorn.run(app,host="127.0.0.1",port=8000)
+    args = parser.parse_args()
+    uvicorn.run(app, host=args.host,port=args.port)
