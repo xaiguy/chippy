@@ -2,6 +2,7 @@ transformers
 datasets
 torch
 streamlit
+streamlit-chat 
 fastapi
 uvicorn
 pydantic

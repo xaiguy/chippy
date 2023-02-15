@@ -1,0 +1,11 @@
+[theme]
+
+# Inhereting from dark base theme
+base = "dark"
+
+# Background color for the main content area
+backgroundColor = '#1F2937'
+
+# Secondary background color
+secondaryBackgroundColor = "#424242"
+
