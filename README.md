@@ -29,3 +29,7 @@ python app.py
 - GPU only, minimum 8GB (CPU would be possible, but I found it to be way too slow)
 - Hardcoded (decent) generation settings
 - No support for the bigger versions of chip since this repo is targeted towards consumer hardware
+
+For more information, check out the model card on Huggingface: https://huggingface.co/Rallio67/chip_1.4B_instruct_alpha
+
+Thanks to LAION contributors and Stability.ai for making this possible.
