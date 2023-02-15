@@ -1,6 +1,10 @@
 # Chippy: A minimal prompting interface for Chip
 
-Chippy provides a minimal prompting interface for chip_1.4B_instruct_alpha, a new experimental instruction tuned model based on pythia-1.4B-deduped. With Chippy, you can easily prompt user input via Streamlit and FastAPI.
+Chippy provides a minimal prompting interface for chip_1.4B_instruct_alpha, a new experimental instruction tuned model based on pythia-1.4B-deduped. With Chippy, you can easily prompt user input via Streamlit and FastAPI. Please keep in mind that quick basic prompting is the ONLY purpose of this demo. 
+
+For a more serious project, check out OpenAssistant:
+
+https://github.com/LAION-AI/Open-Assistant
 
 ## Installation
 
@@ -22,12 +26,12 @@ python api.py --host "127.0.0.1" --port 8000
 python app.py
 ```
 
-## Current limitations of this demo app:
+## Limitations of this demo app:
 
 - Only single turn, no conversations yet
 - This also means that the model won't remember previous prompts
 - GPU only, minimum 8GB (CPU would be possible, but I found it to be way too slow)
-- Hardcoded (decent) generation settings
+- Hardcoded generation settings
 - No support for the bigger versions of chip since this repo is targeted towards consumer hardware
 
 For more information, check out the model card on Huggingface: https://huggingface.co/Rallio67/chip_1.4B_instruct_alpha
