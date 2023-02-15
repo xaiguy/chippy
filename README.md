@@ -36,4 +36,4 @@ python app.py
 
 For more information, check out the model card on Huggingface: https://huggingface.co/Rallio67/chip_1.4B_instruct_alpha
 
-Thanks to LAION contributors and Stability.ai for making this possible.
+Thanks to LAION contributors and Stability.ai.
