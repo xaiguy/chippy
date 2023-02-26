@@ -6,6 +6,12 @@ For a more serious project, check out OpenAssistant:
 
 https://github.com/LAION-AI/Open-Assistant
 
+## Run in Google Colab
+
+If you don't own a >=8GB GPU, you can use Google Colab by importing the notebook from /colab. It's the Streamlit app without the FastAPI.
+
+If you want to run the app and the API locally, follow the instructions below.
+
 ## Installation
 
 To install Chippy's dependencies, you can use `pip`. Simply run the following command in your terminal:
