@@ -6,5 +6,5 @@ streamlit-chat
 fastapi
 uvicorn
 pydantic
-#accelerate
+accelerate
 #bitsandbytes-cuda116
